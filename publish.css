@@ -54,16 +54,15 @@ img {
 
 .page-header {
     font-weight: normal;
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 28px;
     position: relative;
-    top: 15px;
+    top: 5px;
 }
 
-.header-image {
+/* .header-image {
     position: relative;
     top: -22px;
-}
+} */
 
 .tree-item-inner {
     font-family: 'Oxygen Mono';

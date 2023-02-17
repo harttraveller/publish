@@ -57,14 +57,14 @@ function dimLogo() {
 }
 
 function brightGitHubLogo() {
-    github_logo.style.opacity = '0.8'
+    github_logo.style.opacity = '1'
     github_logo.style.width = '31px'
     github_logo.style.top = '67px'
     github_logo.style.left = '14px'
 }
 
 function dimGitHubLogo() {
-    github_logo.style.opacity = '0.25'
+    github_logo.style.opacity = '0.5'
     github_logo.style.width = '25px'
     github_logo.style.top = '70px'
     github_logo.style.left = '17px'
@@ -163,9 +163,9 @@ var outline_view = document.getElementsByClassName("outline-view-outer")[0]
 
 var github_logo = document.createElement('img')
 github_logo.src =
-    'https://raw.githubusercontent.com/harttraveller/stochasticintelligence/main/asset/site/si.png'
+    'https://raw.githubusercontent.com/harttraveller/stochasticintelligence/main/asset/site/gh.png'
 github_logo.style.width = '25px'
-github_logo.style.opacity = '0.25'
+github_logo.style.opacity = '0.5'
 github_logo.style.left = '17px'
 github_logo.style.top = '70px'
 github_logo.style.position = 'absolute'
