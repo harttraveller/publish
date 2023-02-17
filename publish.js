@@ -163,7 +163,7 @@ var outline_view = document.getElementsByClassName("outline-view-outer")[0]
 
 var github_logo = document.createElement('img')
 github_logo.src =
-    'https://raw.githubusercontent.com/harttraveller/stochasticintelligence/main/asset/logo/github-logo.png'
+    'https://raw.githubusercontent.com/harttraveller/stochasticintelligence/main/asset/logo/gh.png'
 github_logo.style.width = '25px'
 github_logo.style.opacity = '0.25'
 github_logo.style.left = '17px'
