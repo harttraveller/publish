@@ -361,18 +361,12 @@ a.internal-link {
 .popover.hover-popover {
     position: absolute;
     z-index: var(--layer-popover);
-    /* max-height: 500px; */
-    /* min-height: 100px; */
     width: 500px;
     overflow: hidden;
     padding: 0;
     border-bottom: none;
-    /* height: 400px; */
 }
 
-/* .popover.hover-popover > .markdown-embed {
-    height: 400px;
-} */
 
 .markdown-embed > .markdown-embed-content > .markdown-preview-view.markdown-rendered {
     background-color: rgba(20, 30, 70, 0.4);
