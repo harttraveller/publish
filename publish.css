@@ -203,19 +203,21 @@ a.internal-link:hover {
     padding-right: 8px;
     margin-right: 50px;
     border-radius: 4px;
-    transition: 0.3s;
+    transition: 0.2s;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .mod-active>.tree-item-inner {
     color: black;
     background-color: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .tree-item-inner:hover {
     color: white;
     background-color: rgb(34, 59, 84);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .tag {
