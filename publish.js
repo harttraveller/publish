@@ -4,7 +4,7 @@
 function quickSearch() {
     left_col.style.width = '25%'
     search_view.style.opacity = '1'
-    search_view.style.top = '0px'
+    search_view.style.top = '7px'
     logo.style.left = '15px'
     search.focus()
     search.select()
@@ -45,36 +45,35 @@ function collapseRightSidebar() {
 function brightLogo() {
     logo.style.opacity = '1'
     logo.style['max-width'] = '40px'
-    logo.style.top = '25px'
+    logo.style.top = '31px'
     logo.style.left = '10px'
 }
 
 function dimLogo() {
     logo.style.opacity = '0.5'
     logo.style['max-width'] = '30px'
-    logo.style.top = '30px'
+    logo.style.top = '36px'
     logo.style.left = '15px'
 }
 
 function brightGitHubLogo() {
     github_logo.style.opacity = '1'
     github_logo.style.width = '31px'
-    github_logo.style.top = '67px'
+    github_logo.style.top = '73px'
     github_logo.style.left = '14px'
 }
 
 function dimGitHubLogo() {
     github_logo.style.opacity = '0.5'
     github_logo.style.width = '25px'
-    github_logo.style.top = '70px'
+    github_logo.style.top = '76px'
     github_logo.style.left = '17px'
 }
 
 
-// if (event.shiftKey) {
 function checkShortcuts(event) {
-    // key -> '
-    if (event.keyCode == 222) {
+    // table of contents -> ]
+    if (event.keyCode == 221) {
         if (table_contents_open) {
             collapseRightSidebar()
             table_contents_open = false
@@ -85,8 +84,8 @@ function checkShortcuts(event) {
             return false
         }
     }
-    //key -> ;
-    if (event.keyCode == 186) {
+    // directory browser -> [
+    if (event.keyCode == 219) {
         if (directory_browser_open) {
             collapseLeftSidebar()
             directory_browser_open = false
@@ -97,7 +96,7 @@ function checkShortcuts(event) {
             return false
         }
     }
-    // key -> /
+    // quick search -> /
     if (event.keyCode == 191) {
         if (quick_search_open) {
             collapseLeftSidebar()
@@ -109,8 +108,8 @@ function checkShortcuts(event) {
             return false
         }
     }
-    // key -> .
-    if (event.keyCode == 190) {
+    // local graph -> ;
+    if (event.keyCode == 186) {
         if (local_graph_open) {
             document.elementFromPoint(0, 0).click();
             local_graph_open = false
@@ -121,8 +120,8 @@ function checkShortcuts(event) {
             return false
         }
     }
-    // key -> ,
-    if (event.keyCode == 188) {
+    // global graph -> '
+    if (event.keyCode == 222) {
         if (global_graph_open) {
             document.elementFromPoint(0, 0).click();
             global_graph_open = false
@@ -166,7 +165,7 @@ github_logo.src =
 github_logo.style.width = '25px'
 github_logo.style.opacity = '0.5'
 github_logo.style.left = '17px'
-github_logo.style.top = '70px'
+github_logo.style.top = '76px'
 github_logo.style.position = 'absolute'
 github_logo.style.transition = '0.3s'
 left_col.append(github_logo)
