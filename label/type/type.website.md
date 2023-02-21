@@ -1,0 +1,5 @@
+---
+alias:
+- website
+---
+-> [[type]]
