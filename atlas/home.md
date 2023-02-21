@@ -3,7 +3,7 @@
 *Site is under construction.*
 
 ## Welcome
-Thanks for visiting. This site is a blog and portfolio. To be frank, it's also an excuse to generate AI art while feeling productive. [[#Featured|Featured]] pages are listed below, and more information is available on the [[Overview|overview]] page.
+Thanks for visiting. This site is a blog and portfolio. To be frank, it's also an excuse to generate AI art while feeling productive. A list of pages can be found [[Index|here]], and more information is available on the [[Overview|overview]] page.
 
 ## Shortcuts
 - `/` -> toggle quick search
