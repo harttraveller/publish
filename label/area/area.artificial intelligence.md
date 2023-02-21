@@ -3,4 +3,3 @@ alias:
 - artificial intelligence
 ---
 -> [[area]]
-
