@@ -1,26 +1,19 @@
 <img src="https://i.redd.it/352q1jzpolja1.jpg" class="header-image">
 
-#working 
+## Resources
+Header art is generated with [midjourney](https://www.midjourney.com), and the site is hosted by [obsidian](https://obsidian.md) publish. Feedback, questions, and suggestions can be submitted via linked reddit threads, or alternatively via the [discussions](https://github.com/harttraveller/rokosphoenix/discussions) page.
+
 ## Atomics
 The site uses an atomic framework; creating pointers to unique ideas instead of rearticulating them should reduce information redundancy.
 
 ![[example atomic]]
-%%
+
 ## Navigation
-
-
-## Tags
-## Tags
-- #archive
-- #complete
-- #working
-- #ongoing
-- #todo
 
 
 
 ## Resources
-Header art is generated with [midjourney](https://www.midjourney.com), and the site is hosted by [obsidian](https://obsidian.md) publish. Feedback, questions, and suggestions can be submitted via linked reddit threads, or alternatively via the [discussions](https://github.com/harttraveller/rokosphoenix/discussions) page.
+
 
 Besides the shortcuts mentioned on the home page, there are a few other tips.
 

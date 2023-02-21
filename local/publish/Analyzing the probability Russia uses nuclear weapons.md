@@ -1,7 +1,5 @@
 </img src="" class="header-image">
 
-#todo 
-
 ## notes
 
 We'll try and drake equation this. I'll create a streamlit app which allows the user to adjust the parameters.

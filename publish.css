@@ -177,8 +177,8 @@ a.external-link {
 
 a.external-link:hover {
     color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     background-color: #1e2c8a;
     border-radius: 4px;
     transition: 0.3s;
@@ -191,17 +191,24 @@ a.internal-link {
 
 a.internal-link:hover {
     color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     background-color: #6c2020;
     border-radius: 4px;
     transition: 0.3s;
 }
 
+.site-body-left-column .tree-item-inner {
+    margin-right: 50px;
+}
+
+.site-body-right-column .tree-item-inner {
+    margin-right: 20px;
+}
+
 .tree-item-inner {
     padding-left: 8px;
     padding-right: 8px;
-    margin-right: 50px;
     border-radius: 4px;
     transition: 0.2s;
     padding-top: 2px;
