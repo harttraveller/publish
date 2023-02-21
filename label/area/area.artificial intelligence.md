@@ -1,0 +1,6 @@
+---
+alias:
+- artificial intelligence
+---
+-> [[area]]
+
