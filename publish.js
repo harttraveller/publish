@@ -12,7 +12,7 @@ function quickSearch() {
 }
 
 function directoryBrowser() {
-    left_col.style.width = '50%'
+    left_col.style.width = '40%'
     left_col.style['background-color'] = 'rgba(0, 0, 0, 1)'
     nav_view.style.opacity = '1'
     logo.style.left = '15px'
@@ -108,8 +108,8 @@ function checkShortcuts(event) {
             return false
         }
     }
-    // local graph -> ;
-    if (event.keyCode == 186) {
+    // local graph -> -
+    if (event.keyCode == 189) {
         if (local_graph_open) {
             document.elementFromPoint(0, 0).click();
             local_graph_open = false
@@ -120,8 +120,8 @@ function checkShortcuts(event) {
             return false
         }
     }
-    // global graph -> '
-    if (event.keyCode == 222) {
+    // global graph -> +
+    if (event.keyCode == 187) {
         if (global_graph_open) {
             document.elementFromPoint(0, 0).click();
             global_graph_open = false
@@ -161,7 +161,7 @@ var outline_view = document.getElementsByClassName("outline-view-outer")[0]
 
 var github_logo = document.createElement('img')
 github_logo.src =
-    'https://raw.githubusercontent.com/harttraveller/rokosphoenix/main/asset/github.png'
+    'https://raw.githubusercontent.com/harttraveller/rokosphoenix/main/asset/website/github.png'
 github_logo.style.width = '25px'
 github_logo.style.opacity = '0.5'
 github_logo.style.left = '17px'

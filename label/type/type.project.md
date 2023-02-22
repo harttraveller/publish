@@ -1,5 +1,0 @@
----
-alias:
-- project
----
--> [[+type]]

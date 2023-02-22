@@ -1,5 +1,0 @@
----
-alias:
-- obsidian vault
----
--> [[+type]]

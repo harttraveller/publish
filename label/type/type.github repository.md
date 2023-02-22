@@ -1,5 +1,0 @@
----
-alias:
-- github repository
----
--> [[+type]]

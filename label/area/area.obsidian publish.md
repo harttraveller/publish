@@ -1,6 +1,0 @@
----
-alias:
-- obsidian publish
----
--> [[+area]]
-
