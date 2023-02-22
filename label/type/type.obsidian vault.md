@@ -2,4 +2,4 @@
 alias:
 - obsidian vault
 ---
--> [[type]]
+-> [[+type]]

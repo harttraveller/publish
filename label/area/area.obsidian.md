@@ -1,5 +1,5 @@
 ---
 alias:
-- artificial intelligence
+- obsidian
 ---
 -> [[+area]]

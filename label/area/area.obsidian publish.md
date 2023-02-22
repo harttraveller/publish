@@ -1,5 +1,6 @@
 ---
 alias:
-- artificial intelligence
+- obsidian publish
 ---
 -> [[+area]]
+

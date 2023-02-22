@@ -9,10 +9,21 @@
     --interactive-hover: #353b47;
     --interactive-accent: #004ede;
     --interactive-accent-hover: #5082df;
+    --h1-color: white;
+    --h2-color: #deb199;
+    --h3-color: #ef8248;
+    --h4-color: #f16232;
+    --h5-color: #f73a3a;
+    --h6-color: #da1862;
 }
 
 .markdown-rendered code {
     color: #24ed35;
+}
+
+.callout[data-callout="aperture"] {
+    --callout-color: 34, 150, 255;
+    --callout-icon: lucide-aperture;
 }
 
 body {
@@ -111,35 +122,37 @@ h5,
 h6 {
     font-weight: normal;
     line-height: 1.3em;
+    position: relative;
+    left: 0px;
 }
 
 h1 {
-    color: white;
+    color: var(--h1-color);
     font-size: 26px !important;
 }
 
 h2 {
-    color: #deb199;
+    color: var(--h2-color);
     font-size: 24px !important;
 }
 
 h3 {
-    color: #ef8248;
+    color: var(--h3-color);
     font-size: 22px !important;
 }
 
 h4 {
-    color: #f16232;
+    color: var(--h4-color);
     font-size: 20px !important;
 }
 
 h5 {
-    color: #f73a3a;
+    color: var(--h5-color);
     font-size: 18px !important;
 }
 
 h6 {
-    color: #da1862 !important;
+    color: var(--h6-color) !important;
     font-size: 0px !important;
 }
 
@@ -171,30 +184,29 @@ a {
 a.external-link {
     color: #7C8DFF;
     background-image: none;
-    padding-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
     transition: 0.3s;
 }
 
 a.external-link:hover {
     color: white;
-    padding-left: 3px;
-    padding-right: 3px;
     background-color: #1e2c8a;
-    border-radius: 4px;
+    border-radius: 3px;
     transition: 0.3s;
 }
 
 a.internal-link {
     color: #FF8D8D;
+    padding-left: 2px;
+    padding-right: 2px;
     transition: 0.3s;
 }
 
 a.internal-link:hover {
     color: white;
-    padding-left: 3px;
-    padding-right: 3px;
     background-color: #6c2020;
-    border-radius: 4px;
+    border-radius: 3px;
     transition: 0.3s;
 }
 
@@ -215,7 +227,7 @@ a.internal-link:hover {
     padding-bottom: 2px;
 }
 
-.mod-active>.tree-item-inner {
+.site-body-left-column .mod-active .tree-item-inner {
     color: black;
     background-color: white;
     transition: 0.2s;
@@ -339,11 +351,66 @@ a.internal-link:hover {
     transition: 0.3s;
 }
 
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-left: -12px !important;
+    margin-right: -12px !important;
+    padding-left: 12px;
+    padding-right: 12px;
+} */
+
 
 .is-flashing {
     animation: blinker 3.3s ease !important;
     border-radius: 4px !important;
+    margin-right: -10px;
+    margin-left: -10px;
 }
+
+.is-flashing h1 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h1-color)
+}
+
+.is-flashing h2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h2-color)
+}
+
+.is-flashing h3 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h3-color)
+}
+
+.is-flashing h4 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h4-color)
+}
+
+.is-flashing h5 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h5-color)
+}
+
+.is-flashing h6 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    color: var(--h6-color)
+}
+
+
+
+
+
 
 @keyframes blinker {
     0% {
@@ -494,11 +561,6 @@ span[aria-label="Close page"]:hover .cross {
     stroke-width: 5px;
     transition: 0.3s;
 }
-
-
-
-
-
 
 code[class*=language-],
 pre[class*=language-] {

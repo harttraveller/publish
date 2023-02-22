@@ -2,4 +2,4 @@
 alias:
 - website
 ---
--> [[type]]
+-> [[+type]]

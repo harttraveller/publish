@@ -2,4 +2,4 @@
 alias:
 - project
 ---
--> [[type]]
+-> [[+type]]

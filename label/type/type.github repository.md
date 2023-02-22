@@ -2,4 +2,4 @@
 alias:
 - github repository
 ---
--> [[type]]
+-> [[+type]]

@@ -1,5 +1,6 @@
 ---
 alias:
-- artificial intelligence
+- css
 ---
 -> [[+area]]
+
