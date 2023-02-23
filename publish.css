@@ -43,10 +43,10 @@
 /* Customize header image */
 .header-image {
     position: relative;
-    top: -70px;
+    top: -80px;
     left: -2%;
     max-width: 104% !important;
-    margin-bottom: -80px;
+    margin-bottom: -90px;
     filter: brightness(64%);
     border-radius: 8px;
 }
@@ -77,8 +77,6 @@ a.internal-link:hover {
 }
 
 /* Heading customization */
-
-
 
 h1,
 h2,
@@ -123,19 +121,6 @@ h6 {
     font-size: 17px !important;
 }
 
-/* Graph modal customization */
-.modal {
-    background-color: var(--background-primary-alt) !important;
-    border-radius: 10px !important;
-    border: 0px !important;
-}
-
-.graph-view-container {
-    height: 0;
-    border: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 /* Remove tooltips */
 
 .tooltip {
@@ -144,7 +129,6 @@ h6 {
 
 /* remove site footer, header, and name */
 .site-footer,
-.site-header,
 .site-body-left-column-site-name {
     display: none !important;
 }
@@ -167,36 +151,12 @@ li {
 }
 
 
-/* Shrink logo */
-
-.site-body-left-column .site-body-left-column-site-logo {
-    max-width: 20px;
-    position: relative;
-    top: 15px;
-    left: 6px;
-    z-index: 1;
-    opacity: 0.5;
-    transition: 0.3s;
-}
-
-/* remove search icon */
-
-.published-search-icon {
-    color: black !important;
-}
-
-/* Darken search bar */
+/* darken search bar */
 
 .search-bar {
     background: black !important;
 }
 
-/* change search location */
-.site-body-left-column .search-view-outer {
-    position: relative;
-    width: 100%;
-    top: -20px;
-}
 
 /* Remove section headers */
 
@@ -204,73 +164,27 @@ li {
     display: none;
 }
 
-.site-body-right-column {
-    width: 31.5% !important;
-}
-
-/* move nav view up */
-
-.site-body-left-column .nav-view-outer {
-    position: relative;
-    top: -18px;
-    left: -18px;
-    /* margin-bottom: -25px; */
-}
-
-
 /* Add hover effect to files and toc */
 
-.tree-item-inner:hover {
-    color: white;
-    background-color: rgb(21, 32, 44);
-    transition: 0.2s;
-}
-
-.site-body-left-column .tree-item-inner {
-    margin-right: -8px;
-}
-
 .tree-item-inner {
-    color: white;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 2px;
-    padding-bottom: 4px;
-    border-radius: 4px;
+    color: grey;
     transition: 0.2s;
 }
 
-.site-body-left-column .mod-active .tree-item-inner {
-    color: white;
-    background-color: rgb(40, 60, 80);
+.tree-item-inner:hover {
+    color: red;
     transition: 0.2s;
 }
 
-/* Dim sidebars */
-
-.site-body-right-column {
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.site-body-right-column:hover {
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.site-body-left-column {
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.site-body-left-column:hover {
-    opacity: 1;
-    transition: 0.3s;
+.mod-active .tree-item-inner {
+    color: white;
+    transition: 0.2s;
 }
 
 .outline-view-outer {
     position: relative;
-    left: -24px;
+    left: -10px;
+    top: -10px;
 }
 
 /* Remove border on left column */
@@ -279,15 +193,16 @@ li {
     border-right: 0px;
 }
 
-/* shrink renderer */
+/* Remote heading link */
 
-.markdown-preview-sizer.markdown-preview-section {
-    width: 68%;
-}
-
-.clickable-icon {
+.clickable-icon[aria-label="Copy link"] {
     display: none !important;
 }
+
+.site-header {
+    border: 0px;
+}
+
 
 /*
 img {
