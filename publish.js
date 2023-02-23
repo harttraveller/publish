@@ -1,82 +1,32 @@
-function brightLogo() {
-    logo.style.opacity = '1'
-    // logo.style['max-width'] = '26px'
-    // logo.style.top = '12px'
-    // logo.style.left = '4px'
-}
+// function checkShortcuts(event) {
+//     // quick search -> /
+//     if (event.keyCode == 191) {
+//         if (quick_search_open) {
+//             search.blur()
+//             quick_search_open = false
+//             left_col.style.opacity = 0;
+//             return false
+//         } else {
 
-function dimLogo() {
-    logo.style.opacity = '0.6'
-    // logo.style['max-width'] = '20px'
-    // logo.style.top = '15px'
-    // logo.style.left = '7px'
-}
+//             search.focus()
+//             search.select()
+//             quick_search_open = true
+//             return false
+//         }
+//     }
 
-var logo = document.getElementsByClassName('site-body-left-column-site-logo')[0]
-
-logo.addEventListener('mouseover', brightLogo, false)
-logo.addEventListener('mouseout', dimLogo, false)
-
-logo.onclick = function () {
-    window.location.href = 'https://rokosphoenix.com'
-};
-
-// function quickSearch() {
-//     left_col.style.width = '25%'
-//     search_view.style.opacity = '1'
-//     search_view.style.top = '7px'
-//     logo.style.left = '15px'
-//     search.focus()
-//     search.select()
-//     search_view.style.margin = '0px 0px 5px 45px'
 // }
 
-// function directoryBrowser() {
-//     left_col.style.width = '40%'
-//     left_col.style['background-color'] = 'rgba(0, 0, 0, 1)'
-//     nav_view.style.opacity = '1'
-//     logo.style.left = '15px'
-// }
-
-// function collapseLeftSidebar() {
-//     left_col.style.width = '3%'
-//     left_col.style['background-color'] = 'rgba(0, 0, 0, 0)'
-//     search_view.style.opacity = '0'
-//     nav_view.style.opacity = '0'
-//     logo.style.opacity = '0.5'
-//     logo.style.left = '15px'
-//     search_view.style.margin = '0px 0px 5px 45px'
-//     search_view.style.top = '20px'
-//     search.blur()
-// }
+// document.onkeydown = checkShortcuts
+// var search = document.getElementsByClassName('search-bar')[0]
+// var quick_search_open = false
 
 
-// function expandRightSidebar() {
-//     right_col.style.width = '30%'
-//     outline_view.style.opacity = "1"
-// }
-
-// function collapseRightSidebar() {
-//     right_col.style.width = '4%'
-//     outline_view.style.opacity = "0"
+// function dimLeftSidebar() {
 
 // }
 
 
-
-// function brightGitHubLogo() {
-//     github_logo.style.opacity = '1'
-//     github_logo.style.width = '31px'
-//     github_logo.style.top = '73px'
-//     github_logo.style.left = '14px'
-// }
-
-// function dimGitHubLogo() {
-//     github_logo.style.opacity = '0.5'
-//     github_logo.style.width = '25px'
-//     github_logo.style.top = '76px'
-//     github_logo.style.left = '17px'
-// }
 
 
 // function checkShortcuts(event) {
@@ -188,14 +138,6 @@ logo.onclick = function () {
 
 
 
-// github_logo.addEventListener('mouseover', brightGitHubLogo, false)
-// github_logo.addEventListener('mouseout', dimGitHubLogo, false)
-
-
-// cent_col.addEventListener('mouseover', collapseLeftSidebar, false)
-// cent_col.addEventListener('mouseover', collapseRightSidebar, false)
-
-// right_col.addEventListener('mouseover', expandRightSidebar, false)
 
 // // sidebar graphics click hrefs
 

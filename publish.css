@@ -34,7 +34,7 @@
     font-weight: normal;
     font-size: 28px;
     position: relative;
-    top: 10px;
+    top: 0px;
     z-index: 1;
     line-height: 32px;
     padding: 10px 0px 10px 0px;
@@ -129,6 +129,7 @@ h6 {
 
 /* remove site footer, header, and name */
 .site-footer,
+.site-header,
 .site-body-left-column-site-name {
     display: none !important;
 }
@@ -157,6 +158,27 @@ li {
     background: black !important;
 }
 
+/* dim sidebar */
+
+.site-body-left-column {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.site-body-left-column:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.site-body-right-column {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.site-body-right-column:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
 
 /* Remove section headers */
 
@@ -169,6 +191,7 @@ li {
 .tree-item-inner {
     color: grey;
     transition: 0.2s;
+    font-size: 14px;
 }
 
 .tree-item-inner:hover {
@@ -183,7 +206,6 @@ li {
 
 .outline-view-outer {
     position: relative;
-    left: -10px;
     top: -10px;
 }
 
@@ -191,6 +213,7 @@ li {
 
 .site-body-left-column {
     border-right: 0px;
+    margin-right: -20px;
 }
 
 /* Remote heading link */
@@ -203,6 +226,9 @@ li {
     border: 0px;
 }
 
+/* .markdown-preview-sizer.markdown-preview-section {
+    width: 55%;
+} */
 
 /*
 img {
