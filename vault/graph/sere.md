@@ -1,0 +1,1 @@
+Adjective: Referring to itself or to the conventions of its genre; combination of "self" and "referential". For instance, if you are doing an analysis of varying analyses, you could say this is a "sere-analysis".
