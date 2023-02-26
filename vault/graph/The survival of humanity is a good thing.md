@@ -1,1 +1,0 @@
-The survival of humanity is a good thing. Accordingly, entities, events and decisions that  that increase the survival probability of humanity are good, and ones that reduce the survival probability of humanity are bad.

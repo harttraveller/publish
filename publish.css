@@ -157,6 +157,12 @@ li {
     font-size: 14px;
 }
 
+/* Adjust checkbox */
+
+.markdown-preview-view .task-list-item-checkbox {
+    width: 14px;
+    height: 14px;
+}
 
 /* darken search bar */
 
