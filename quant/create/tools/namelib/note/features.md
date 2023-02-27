@@ -1,6 +1,12 @@
-
 %%
-- [ ] Automatically order names 
+- [x] Automatically order names
+- [ ] detect if actually name
+	- [ ] boolean classifier
+	- [ ] probability
+- [ ] detect if fake name
+	- [ ] boolean estimation
+	- [ ] 
+- [ ] detect if initials
 
 - detect if initials
 - extract names from username

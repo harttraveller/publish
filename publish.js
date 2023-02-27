@@ -138,8 +138,6 @@ const svgCopy =
 const svgCheck =
   '<svg aria-hidden="true" height="12" viewBox="1 -2 12 18" version="1.1" width="18" data-view-component="true"><path fill-rule="evenodd" fill="rgb(63, 185, 80)" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>'
 
-// Have to continuously rerun this, even though it's inefficient, don't know why but it doesn't work otherwise
-
 function addCopyButton (block) {
   // create the copy button
   let button = document.createElement('button')
@@ -172,7 +170,10 @@ function copyCodeToClipboard (code, button) {
     })
 }
 
-// check if there are code blocks on the page every 500ms
+// check if there are code blocks on the page every 100ms
+// Have to continuously rerun this, even though it's inefficient, don't know why but it doesn't work otherwise
+// waiting for the dom or page to load don't work
+// in faireness, I don't know javascript, so I'm probably doing something wrong
 
 setInterval(function () {
   document.querySelectorAll('pre code').forEach(block => {
