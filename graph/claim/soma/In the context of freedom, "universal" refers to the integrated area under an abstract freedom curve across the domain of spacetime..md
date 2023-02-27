@@ -1,3 +1,4 @@
+#order 
 ## text
 Suppose the following premise is true.
 
@@ -11,4 +12,4 @@ If we performed the aforementioned operation across the domain of space for ever
 
 ## edge
 - query: [[How is freedom defined?]]
-- query: [[Why is maximizing universal freedom of of the components of the meaning of life?]]
+- query: [[Why is maximizing universal freedom of of the elements that defines the meaning of life?]]

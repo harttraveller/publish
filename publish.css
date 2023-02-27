@@ -37,6 +37,10 @@
     --callout-icon: lucide-fingerprint;
 }
 
+.callout[data-callout="question"] {
+    --callout-color: 69, 221, 69;
+}
+
 /* Customize page title */
 .page-header {
     font-weight: normal;
@@ -157,6 +161,29 @@ li {
     font-size: 14px;
 }
 
+/* Border color */
+
+.markdown-rendered hr {
+    border-color: #0c1b33;
+}
+
+/* change logo width */
+
+.site-body-left-column-site-logo {
+    max-width: 50px;
+    opacity: 0.4;
+    position: relative;
+    margin-bottom: 10px;
+    top: -10px;
+    transition: 0.3s;
+    margin-right: 15px;
+}
+
+.site-header-logo {
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
 /* Adjust checkbox */
 
 .markdown-preview-view .task-list-item-checkbox {
@@ -170,23 +197,65 @@ li {
     background: black !important;
 }
 
+/* Remove heading underline */
+
+.published-container .markdown-rendered h1, .published-container .markdown-rendered h2 {
+    border-bottom: 0px;
+}
+
 
 /* Remove section headers */
+
+.site-body-right-column {
+    opacity: 0;
+    transition: 0.3s;
+    ;
+}
+
+.site-body-right-column:hover {
+    opacity: 1;
+}
 
 .site-body-right-column .published-section-header {
     display: none;
 }
 
-/* Add hover effect to files and toc */
+/* Tree item inner font */
 
 .tree-item-inner {
-    color: grey;
-    transition: 0.2s;
-    font-size: 14px;
     font-family: var(--monospace-font);
 }
 
-.tree-item-inner:hover {
+/* Add hover effect to files and toc */
+
+.site-body-left-column .tree-item-inner {
+    color: grey;
+    transition: 0.2s;
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+/* style backlinks */
+
+.backlinks {
+    border-top: 0px;
+    padding: 20px 20px 20px 20px;
+    background: #060d24;
+    border-radius: 10px;
+}
+
+.site-body-left-column .tree-item-inner:hover {
+    /* background: #190a0a; */
+    color: red;
+    transition: 0.2s;
+}
+
+.tree-item-self.mod-collapsible .tree-item-inner {
+    background: transparent !important;
+}
+
+.site-body-right-column .tree-item-inner:hover {
     color: red;
     transition: 0.2s;
 }
@@ -196,6 +265,17 @@ li {
     transition: 0.2s;
 }
 
+.nav-view-outer {
+    z-index: 1;
+    transition: 0.3s;
+    /* overflow-y: hidden; */
+    /* opacity: 0; */
+}
+
+.nav-view {
+    transition: 0.3s;
+}
+
 .nav-view-outer .tree-item-self.mod-active {
     border-left: 1px solid red;
 }
@@ -203,6 +283,12 @@ li {
 .outline-view-outer {
     position: relative;
     top: -10px;
+}
+
+/* Smooth dim center col */
+
+.site-body-center-column {
+    transition: 0.3s;
 }
 
 /* Remove border on left column */
@@ -299,7 +385,7 @@ a,
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 8px;
-    padding-bottom: 0px;
+    padding-bottom: 8px;
 }
 
 .markdown-embed-link {
@@ -388,27 +474,22 @@ img {
 
 /* Code stuff */
 
-/*
 code[class*=language-],
 pre[class*=language-] {
-    background: 0 0;
+    /* background: 0 0; */
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 0.8em;
-    text-align: left;
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
     word-wrap: normal;
     line-height: 1.4;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
     tab-size: 4;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
+/*
 
 pre[class*=language-] {
     padding: 1em;
@@ -508,9 +589,25 @@ pre[class*="language-"] {
     padding: 0.3rem 0.3em 0.3rem 0.3rem;
 }
 
+*/
 
 pre[class*="language-"] button {
     position: absolute;
     top: 5px;
     right: 5px;
-} */
+    opacity: 1;
+}
+
+.markdown-rendered button.copy-code-button {
+    background-color: transparent;
+    padding: 5px 5px 7px 5px;
+    transition: 0.2s;
+}
+
+.markdown-rendered pre:not(:hover)>button.copy-code-button {
+    display: block;
+}
+
+.markdown-rendered button.copy-code-button:hover {
+    transition: 0.2s;
+}
