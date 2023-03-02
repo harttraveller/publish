@@ -61,7 +61,7 @@ function isMobile () {
 }
 
 function expandDirectoryBrowser () {
-  nav_view_outer.style.width = '280%'
+  nav_view_outer.style.width = '180%'
   nav_view_outer.style.opacity = '1'
   cent_col.style.opacity = '0.05'
   search_view.style.opacity = '1'
@@ -132,6 +132,9 @@ logo.onclick = function () {
 header_logo.onclick = function () {
   window.location.href = 'https://rokosphoenix.com'
 }
+
+// ref: https://www.roboleary.net/2022/01/13/copy-code-to-clipboard-blog.html
+// ref: https://github.com/gollum/gollum/issues/1754
 
 const svgCopy =
   '<svg aria-hidden="true" height="12" viewBox="1 -2 12 18" version="1.1" width="18" data-view-component="true"><path fill-rule="evenodd" fill = "rgb(200, 200, 200)" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" fill = "rgb(200, 200, 200)" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg>'
