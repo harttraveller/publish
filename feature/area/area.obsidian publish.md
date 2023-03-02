@@ -1,0 +1,4 @@
+---
+alias:
+- obsidian publish
+---

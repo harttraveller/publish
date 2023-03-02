@@ -1,0 +1,7 @@
+
+
+
+---
+alias:
+- data analysis
+---
