@@ -1,3 +1,5 @@
+/* import inter and oxygen mono fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Inter');
 @import url('https://fonts.googleapis.com/css?family=Oxygen%20Mono');
 
@@ -18,24 +20,28 @@
     --h6-color: #da1862;
 }
 
-/* Change code green */
+/* Change inline code color to green */
 .markdown-rendered code {
     color: #24ed35;
 }
 
-
-
 /* Add custom callouts */
+
+/* aperture callout */
 
 .callout[data-callout="aperture"] {
     --callout-color: 51, 117, 249;
     --callout-icon: lucide-aperture;
 }
 
+/* fingerprint callout */
+
 .callout[data-callout="print"] {
     --callout-color: 254, 57, 57;
     --callout-icon: lucide-fingerprint;
 }
+
+/* change question color */
 
 .callout[data-callout="question"] {
     --callout-color: 69, 221, 69;
@@ -139,7 +145,6 @@ h6 {
 
 /* remove site footer, header, and name */
 .site-footer,
-/* .site-header, */
 .site-body-left-column-site-name {
     display: none !important;
 }
@@ -268,8 +273,6 @@ li {
 .nav-view-outer {
     z-index: 1;
     transition: 0.3s;
-    /* overflow-y: hidden; */
-    /* opacity: 0; */
 }
 
 .nav-view {
