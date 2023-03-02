@@ -41,6 +41,14 @@
     --callout-icon: lucide-fingerprint;
 }
 
+/* hide graph view */
+/* hiding instead of disabling still allows for modals */
+
+/* .graph-view-container {
+    display: none;
+
+} */
+
 /* change question color */
 
 .callout[data-callout="question"] {
@@ -62,7 +70,7 @@
     top: -75px;
     left: -2%;
     max-width: 104% !important;
-    margin-bottom: -85px;
+    margin-bottom: -75px;
     filter: brightness(64%);
     border-radius: 8px;
 }
@@ -202,24 +210,30 @@ li {
     background: black !important;
 }
 
+.search-view-outer {
+    opacity: 0;
+}
+
 /* Remove heading underline */
 
 .published-container .markdown-rendered h1, .published-container .markdown-rendered h2 {
     border-bottom: 0px;
 }
 
+.graph-view-container.mod-expanded {
+    background: transparent;
+}
 
 /* Remove section headers */
 
-.site-body-right-column {
+/* .site-body-right-column {
     opacity: 0;
     transition: 0.3s;
-    ;
 }
 
 .site-body-right-column:hover {
     opacity: 1;
-}
+} */
 
 .site-body-right-column .published-section-header {
     display: none;
@@ -273,6 +287,7 @@ li {
 .nav-view-outer {
     z-index: 1;
     transition: 0.3s;
+    opacity: 0;
 }
 
 .nav-view {
@@ -312,6 +327,28 @@ li {
 
 .graph-view-container {
     border: 0px;
+    height: 0px;
+}
+
+/* Move up outline view */
+
+.outline-view {
+    position: relative;
+    top: -55px;
+}
+
+.clickable-icon {
+    display: none !important;
+}
+
+/* make graph icons black */
+
+.graph-icon.graph-expand {
+    color: black;
+}
+
+.graph-icon.graph-global {
+    color: black;
 }
 
 /* Remove site header */

@@ -1,3 +1,4 @@
+// if (event.shiftKey) {
 function checkShortcuts (event) {
   // quick search -> /
   if (event.keyCode == 191) {
@@ -14,34 +15,38 @@ function checkShortcuts (event) {
       return false
     }
   }
-  // local graph -> [
-  if (event.keyCode == 219) {
+  // local graph -> :
+  if (event.keyCode == 186) {
     if (local_graph_open) {
       document.elementFromPoint(0, 0).click()
+      cent_col.style.opacity = '1'
       local_graph_open = false
       return false
     } else {
+      cent_col.style.opacity = '0.2'
       local_graph.click()
       local_graph_open = true
       return false
     }
   }
-  // global graph -> ]
-  if (event.keyCode == 221) {
+  // global graph -> '
+  if (event.keyCode == 222) {
     if (global_graph_open) {
       document.elementFromPoint(0, 0).click()
+      cent_col.style.opacity = '1'
       global_graph_open = false
       return false
     } else {
+      cent_col.style.opacity = '0.2'
       global_graph.click()
       global_graph_open = true
       return false
     }
   }
-  // return to home page -> :
-  if (event.keyCode == 186) {
-    window.location.href = 'https://rokosphoenix.com'
-  }
+  // // return to home page -> :
+  // if (event.keyCode == ) {
+  //   window.location.href = 'https://rokosphoenix.com'
+  // }
 }
 
 function isMobile () {
@@ -61,9 +66,9 @@ function isMobile () {
 }
 
 function expandDirectoryBrowser () {
-  nav_view_outer.style.width = '180%'
+  nav_view_outer.style.width = '260%'
   nav_view_outer.style.opacity = '1'
-  cent_col.style.opacity = '0.05'
+  cent_col.style.opacity = '0.2'
   search_view.style.opacity = '1'
 }
 function collapseDirectoryBrowser () {
@@ -113,11 +118,11 @@ var quick_search_open = false
 var global_graph_open = false
 var local_graph_open = false
 
-if (!isMobile()) {
-  collapseDirectoryBrowser()
-  cent_col.addEventListener('mouseover', collapseDirectoryBrowser, false)
-  left_col.addEventListener('mouseover', expandDirectoryBrowser, false)
-}
+// if (!isMobile()) {
+//   collapseDirectoryBrowser()
+//   cent_col.addEventListener('mouseover', collapseDirectoryBrowser, false)
+//   left_col.addEventListener('mouseover', expandDirectoryBrowser, false)
+// }
 
 logo.addEventListener('mouseover', brightLogo, false)
 logo.addEventListener('mouseout', dimLogo, false)
@@ -173,14 +178,8 @@ function copyCodeToClipboard (code, button) {
     })
 }
 
-// check if there are code blocks on the page every 100ms
-// Have to continuously rerun this, even though it's inefficient, don't know why but it doesn't work otherwise
-// waiting for the dom or page to load don't work
-// in faireness, I don't know javascript, so I'm probably doing something wrong
-
 setInterval(function () {
   document.querySelectorAll('pre code').forEach(block => {
-    // if the next sibling is null or not a copy button, add a copy button
     if (
       !block.nextSibling ||
       block.nextSibling.className != 'copy-code-button'

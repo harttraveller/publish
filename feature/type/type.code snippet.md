@@ -1,4 +1,0 @@
----
-alias:
-- code snippet
----

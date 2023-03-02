@@ -1,4 +1,0 @@
----
-alias:
-- state space
----
