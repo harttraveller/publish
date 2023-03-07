@@ -41,6 +41,20 @@
     --callout-icon: lucide-fingerprint;
 }
 
+/* tangent callout */
+
+.callout[data-callout="tangent"] {
+    --callout-color: 255, 156, 51;
+    --callout-icon: lucide-git-branch;
+}
+
+/* clarifying callout */
+
+.callout[data-callout="clarify"] {
+    --callout-color: 241, 203, 49;
+    --callout-icon: lucide-lightbulb;
+}
+
 /* hide graph view */
 /* hiding instead of disabling still allows for modals */
 
@@ -222,6 +236,13 @@ li {
 
 .graph-view-container.mod-expanded {
     background: transparent;
+}
+
+/* change tag padding */
+
+a.tag {
+    padding: 2px 4px;
+    font-size: 11px;
 }
 
 /* Remove section headers */
