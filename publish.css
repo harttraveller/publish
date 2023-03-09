@@ -12,12 +12,12 @@
     --interactive-hover: #353b47;
     --interactive-accent: #004ede;
     --interactive-accent-hover: #5082df;
-    --h1-color: white;
-    --h2-color: #deb199;
-    --h3-color: #ef8248;
-    --h4-color: #f16232;
-    --h5-color: #f73a3a;
-    --h6-color: #da1862;
+    --h1-color: rgba(255, 195, 155, 1);
+    --h2-color: rgba(255, 165, 117, 1);
+    --h3-color: rgba(255, 133, 85, 1);
+    --h4-color: rgba(255, 96, 61, 1);
+    --h5-color: rgba(255, 64, 38, 1);
+    --h6-color: rgba(255, 0, 0, 1);
 }
 
 /* Change inline code color to green */
@@ -76,6 +76,7 @@
     position: relative;
     z-index: 1;
     line-height: 32px;
+    color: white !important;
 }
 
 /* Customize header image */
@@ -127,6 +128,8 @@ h6 {
     line-height: 1.3em;
     position: relative;
     left: 0px;
+    margin: 20px 0px -10px 0px !important;
+    padding-bottom: 0px !important;
 }
 
 h1 {
@@ -242,9 +245,13 @@ li {
 
 a.tag {
     padding: 2px 4px;
-    font-size: 11px;
+    font-size: 12px;
+    border-radius: 2px !important;
 }
 
+.markdown-embed-content a.tag {
+    display: none;
+}
 /* Remove section headers */
 
 /* .site-body-right-column {
@@ -440,13 +447,10 @@ a,
 
 
 .markdown-embed>.markdown-embed-content>.markdown-preview-view.markdown-rendered {
-    background-color: rgba(20, 30, 70, 0.4);
-    border: 1px solid rgb(38, 46, 82);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 0px 30px 0px 30px;
 }
 
 .markdown-embed-link {
@@ -470,8 +474,16 @@ a,
 img {
     margin: 0 auto;
     display: block;
+    border-radius: 8px;
 }
 
+.modal-title {
+    display: none;
+}
+
+.modal-content {
+    padding: 16px 16px;
+}
 /* .markdown-preview-sizer.markdown-preview-section {
     width: 55%;
 } */

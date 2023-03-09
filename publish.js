@@ -1,5 +1,4 @@
-// if (event.shiftKey) {
-function checkShortcuts (event) {
+function checkShortcuts(event) {
   // quick search -> /
   if (event.keyCode == 191) {
     if (quick_search_open) {
