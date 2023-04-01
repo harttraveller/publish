@@ -233,7 +233,8 @@ li {
 
 /* Remove heading underline */
 
-.published-container .markdown-rendered h1, .published-container .markdown-rendered h2 {
+.published-container .markdown-rendered h1,
+.published-container .markdown-rendered h2 {
     border-bottom: 0px;
 }
 
@@ -252,6 +253,7 @@ a.tag {
 .markdown-embed-content a.tag {
     display: none;
 }
+
 /* Remove section headers */
 
 /* .site-body-right-column {
@@ -474,7 +476,7 @@ a,
 img {
     margin: 0 auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 8px !important;
 }
 
 .modal-title {
@@ -484,6 +486,7 @@ img {
 .modal-content {
     padding: 16px 16px;
 }
+
 /* .markdown-preview-sizer.markdown-preview-section {
     width: 55%;
 } */
