@@ -1,0 +1,4 @@
+---
+alias:
+- Yuval Noah Harari
+---

@@ -20,6 +20,10 @@
     --h6-color: rgba(255, 0, 0, 1);
 }
 
+.render-container, .site-body {
+    background-color: black;
+}
+
 /* Change inline code color to green */
 .markdown-rendered code {
     color: #24ed35;
@@ -87,7 +91,7 @@
     max-width: 104% !important;
     margin-bottom: -75px;
     filter: brightness(64%);
-    border-radius: 8px;
+    border-radius: 30px !important;
 }
 
 /* Link customization */
@@ -204,9 +208,10 @@ li {
     opacity: 0.4;
     position: relative;
     margin-bottom: 10px;
-    top: -10px;
+    top: 0px;
     transition: 0.3s;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .site-header-logo {
@@ -309,8 +314,13 @@ a.tag {
     transition: 0.2s;
 }
 
-.mod-active .tree-item-inner {
+.site-body-left-column .tree-item-inner {
     color: white;
+    transition: 0.2s;
+}
+
+.mod-active .tree-item-inner {
+    color: red;
     transition: 0.2s;
 }
 

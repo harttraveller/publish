@@ -1,0 +1,4 @@
+#static 
+
+- [[is.instance]]
+- [[thought]]

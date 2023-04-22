@@ -48,7 +48,7 @@ function checkShortcuts(event) {
   // }
 }
 
-function isMobile () {
+function isMobile() {
   if (
     navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/webOS/i) ||
@@ -64,39 +64,38 @@ function isMobile () {
   }
 }
 
-function expandDirectoryBrowser () {
+function expandDirectoryBrowser() {
   nav_view_outer.style.width = '260%'
   nav_view_outer.style.opacity = '1'
-  cent_col.style.opacity = '0.2'
+  cent_col.style.opacity = '0.4'
   search_view.style.opacity = '1'
 }
-function collapseDirectoryBrowser () {
+function collapseDirectoryBrowser() {
   nav_view_outer.style.width = '100%'
   nav_view_outer.style.opacity = '0'
   cent_col.style.opacity = '1'
   search_view.style.opacity = '0'
 }
 
-function brightLogo () {
+function brightLogo() {
   logo.style.opacity = '1'
   logo.style['max-width'] = '56px'
-  logo.style.top = '-13px'
-  logo.style['margin-right'] = '12px'
+  logo.style.top = '-3px'
+  logo.style['margin-right'] = '17px'
   logo.style['margin-bottom'] = '4px'
 }
-function dimLogo () {
+function dimLogo() {
   logo.style.opacity = '0.4'
   logo.style['max-width'] = '50px'
-  logo.style.top = '-10px'
-  logo.style.right = '0px'
-  logo.style['margin-right'] = '15px'
+  logo.style.top = '0px'
+  logo.style['margin-right'] = '20px'
   logo.style['margin-bottom'] = '10px'
 }
 
-function brightHeaderLogo () {
+function brightHeaderLogo() {
   header_logo.style.opacity = '1'
 }
-function dimHeaderLogo () {
+function dimHeaderLogo() {
   header_logo.style.opacity = '0.4'
 }
 
@@ -145,7 +144,7 @@ const svgCopy =
 const svgCheck =
   '<svg aria-hidden="true" height="12" viewBox="1 -2 12 18" version="1.1" width="18" data-view-component="true"><path fill-rule="evenodd" fill="rgb(63, 185, 80)" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>'
 
-function addCopyButton (block) {
+function addCopyButton(block) {
   // create the copy button
   let button = document.createElement('button')
   button.classList.add('copy-code-button')
@@ -161,7 +160,7 @@ function addCopyButton (block) {
   })
 }
 
-function copyCodeToClipboard (code, button) {
+function copyCodeToClipboard(code, button) {
   navigator.clipboard
     .writeText(code)
     .then(function () {
@@ -187,3 +186,13 @@ setInterval(function () {
     }
   })
 }, 100)
+
+setInterval(function () {
+  if (document.getElementsByClassName('modal-container').length == 0) {
+    if (!quick_search_open) {
+      local_graph_open = false;
+      global_graph_open = false;
+      cent_col.style.opacity = '1'
+    }
+  }
+}, 50)

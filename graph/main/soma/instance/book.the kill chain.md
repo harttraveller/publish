@@ -1,0 +1,4 @@
+---
+alias:
+- the kill chain
+---

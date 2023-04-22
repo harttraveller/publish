@@ -1,0 +1,1 @@
+implied: of humans, from the perspective of individual - self.

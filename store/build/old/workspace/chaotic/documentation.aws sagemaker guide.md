@@ -1,0 +1,4 @@
+---
+alias:
+- aws sagemaker guide
+---

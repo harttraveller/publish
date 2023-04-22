@@ -1,0 +1,1 @@
+- [[claim.there is a set of futures in which humanity is destroyed by AI and a set of futures in which we are not]]
