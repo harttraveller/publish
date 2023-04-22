@@ -1,2 +1,0 @@
-- [[is.instance]]
-- [[reference wiki]]

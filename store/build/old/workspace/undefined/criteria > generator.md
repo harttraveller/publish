@@ -1,2 +1,0 @@
-- [[criteria]]
-- [[generator]]

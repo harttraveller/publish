@@ -1,2 +1,0 @@
-- [[generator]]
-- [[gregorian calendar formula]]

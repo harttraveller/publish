@@ -1,2 +1,0 @@
-- [[property > domain]]
-- [[domain > artificial intelligence]]

@@ -1,1 +1,0 @@
-- [[idea > it is difficult to confidently predict AI behavior when we do not deeply understand AGI]]

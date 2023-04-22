@@ -1,2 +1,0 @@
-- [[referent > domain]]
-- [[domain > social engineering]]

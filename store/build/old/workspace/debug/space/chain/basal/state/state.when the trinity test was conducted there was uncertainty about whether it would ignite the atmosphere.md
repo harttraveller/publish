@@ -1,3 +1,0 @@
-From [wikipedia](https://www.wikiwand.com/en/Trinity_(nuclear_test)#:~:text=Enrico%20Fermi%20offered%20to%20take%20wagers%20among%20the%20top%20physicists%20and%20military%20present%20on%20whether%20the%20atmosphere%20would%20ignite%2C%20and%20if%20so%20whether%20it%20would%20destroy%20just%20the%20state%2C%20or%20incinerate%20the%20entire%20planet.) - when the trinity test was conducted:
-
->Enrico Fermi offered to take wagers among the top physicists and military present on whether the atmosphere would ignite, and if so whether it would destroy just the state, or incinerate the entire planet.

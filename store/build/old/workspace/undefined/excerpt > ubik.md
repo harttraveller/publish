@@ -1,2 +1,0 @@
-- [[is.excerpt]]
-- [[book.ubik|ubik]]

@@ -1,2 +1,0 @@
-- [[referent > instance]]
-- [[instance > one-dimensional temporal region interval class]]

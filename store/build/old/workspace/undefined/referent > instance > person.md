@@ -1,2 +1,0 @@
-- [[referent > instance]]
-- [[instance > person]]

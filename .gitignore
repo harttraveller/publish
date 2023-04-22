@@ -3,4 +3,5 @@
 .trash
 .obsidian
 asset/local
-vault/workspace
+store
+vault

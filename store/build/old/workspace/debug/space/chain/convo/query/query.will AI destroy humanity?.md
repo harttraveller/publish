@@ -1,4 +1,0 @@
-- [[claim > AGI will destroy humanity]]
-- [[claim.AGI might destroy humanity]]
-- [[claim.AGI will not destroy humanity]]
-- [[claim.we can not be confident whether AI will or will not destroy humanity]]
