@@ -2,6 +2,7 @@
 .vscode
 .trash
 .obsidian
-asset/local
-store
-vault
+
+_usr_
+adapt
+asset/user
