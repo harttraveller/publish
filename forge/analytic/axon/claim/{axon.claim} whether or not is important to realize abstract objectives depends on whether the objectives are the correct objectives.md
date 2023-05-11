@@ -1,0 +1,2 @@
+- [[{axon.query} how would you define whether a set of abstract objectives is correct or not]]
+- [[{axon.query} if a set of abstract objectives are the correct objectives, why is it important to realize them]]

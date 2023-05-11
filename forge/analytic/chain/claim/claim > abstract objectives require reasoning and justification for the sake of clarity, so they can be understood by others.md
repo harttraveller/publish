@@ -1,1 +1,0 @@
-- [[query > why is it necessary for other people to understand abstract objectives?]]

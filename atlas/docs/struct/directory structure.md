@@ -1,0 +1,65 @@
+- asset
+	- repo -> `organic growth needed`
+	- site -> `organic growth needed`
+	- user -> `organic growth needed`
+- atlas
+	- docs -> `organic growth needed`
+	- home
+	- list
+- atoms
+- cache
+- chaos
+- forge
+	- analytic
+		- axon
+			- claim
+			- query
+		- soma -> `organic growth needed`
+	- protocol
+		- indicator
+			- criteria
+			- feedback
+		- objective
+			- absolute
+			- abstract
+			- concrete
+	- sequence
+		- augur
+			- forecast
+				- going
+				- right
+				- wrong
+			- temporal
+				- D
+				- M
+				- Y
+		- event
+			- past
+				- occurrence
+				- unrealized
+			- pres -> `unsettled`
+				- bounded
+				- process
+			- prox
+				- real
+					- divert
+					- elapse
+					- target
+				- void
+					- divert
+					- elapse
+					- target
+		- model -> `organic growth needed`
+- graph
+	- agent
+		- input
+		- study
+		- yield
+	- space
+		- group
+			- main
+			- spec
+		- plato
+			- category
+			- instance
+			- ontology

@@ -1,0 +1,2 @@
+- [[{axon.claim} it is impossible for any would be controller to know if their model of reality is correct, and thus ensuring people en masse are informed helps society and humanity converge towards truth]]
+- [[{axon.claim} informed consent is a fundamental ethical principle that respects individual autonomy, dignity, and freedom]]

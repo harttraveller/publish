@@ -2,7 +2,10 @@
 
 # Welcome
 
-Thanks for visiting. The website architecture is currently a work in progress and will be updated. Feel free to reach out via the [contact](https://www.harttraveller.com) form on my professional site.
+Thanks for visiting. 
+
+
+Feel free to reach out via the [contact](https://www.harttraveller.com) form on my professional site.
 
 %%
 # Posts

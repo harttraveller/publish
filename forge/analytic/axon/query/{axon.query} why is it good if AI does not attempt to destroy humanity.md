@@ -1,0 +1,1 @@
+- isomorphism: [[{axon.query} why is it bad if AI attempts to destroy humanity]]

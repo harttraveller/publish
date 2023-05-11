@@ -1,1 +1,0 @@
-[[=input.external.info.source]]

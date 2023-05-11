@@ -1,1 +1,0 @@
-- [[query > why is it important to have a framework for understanding and evaluating the implications of our actions and decisions?]]

@@ -1,0 +1,2 @@
+- [[{axon.query} how is freedom defined]]
+- [[{axon.query} why is maximizing universal freedom a good abstract objective]]
