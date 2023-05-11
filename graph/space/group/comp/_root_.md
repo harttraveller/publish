@@ -47,7 +47,6 @@ type
 	- active -> `unsettled`
 	- enable -> `unsettled`
 
-
 ### type
 
 #### data
