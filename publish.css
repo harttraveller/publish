@@ -59,6 +59,13 @@
     --callout-icon: lucide-lightbulb;
 }
 
+/* contact callout */
+
+.callout[data-callout="contact"] {
+    --callout-color: 49, 190, 241;
+    --callout-icon: lucide-mail;
+}
+
 /* hide graph view */
 /* hiding instead of disabling still allows for modals */
 

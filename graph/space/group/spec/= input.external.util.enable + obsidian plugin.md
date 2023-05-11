@@ -1,1 +1,1 @@
-[[= input.internal.util.enable]]
+[[= input.internal.util.object]]

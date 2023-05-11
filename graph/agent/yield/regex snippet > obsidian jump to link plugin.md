@@ -1,7 +1,7 @@
 #active 
 
 # edge
-- type: [[= yield.internal.info.record + regex snippet]]
+- type: [[= yield.internal.rsrc.object + regex snippet]]
 - area: [[~regex]]
 
 # text

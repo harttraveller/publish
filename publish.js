@@ -1,6 +1,6 @@
 function checkShortcuts(event) {
   // quick search -> /
-  if (event.keyCode == 191) {
+  if (event.keyCode == 220) {
     if (quick_search_open) {
       search.blur()
       collapseDirectoryBrowser()

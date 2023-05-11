@@ -1,1 +1,1 @@
-[[= yield.external.util.active]]
+[[= yield.external.util.object]]
