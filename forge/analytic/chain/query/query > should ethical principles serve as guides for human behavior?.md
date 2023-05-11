@@ -1,0 +1,2 @@
+- [[claim > no, ethical principles should not serve as guides for human behavior]]
+- [[claim > yes, ethical principles should serve as guides for human behavior]]

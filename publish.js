@@ -42,10 +42,6 @@ function checkShortcuts(event) {
       return false
     }
   }
-  // // return to home page -> :
-  // if (event.keyCode == ) {
-  //   window.location.href = 'https://rokosphoenix.com'
-  // }
 }
 
 function isMobile() {

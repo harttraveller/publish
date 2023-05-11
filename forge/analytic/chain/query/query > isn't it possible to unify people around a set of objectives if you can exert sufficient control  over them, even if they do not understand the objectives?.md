@@ -1,0 +1,2 @@
+- [[claim > it is possible to unify people around a set abstract objectives without their knowledge if you can exert sufficient control over them, however it would be ethically wrong to do so, as people should have informed consent]]
+- [[claim > it is possible to unify people around a set of abstract objectives without their knowledge by exerting control over them, and it would not be wrong to do so, as if the objectives are justified, people do not need to understand them]]

@@ -1,0 +1,3 @@
+- causal possibility: [[event > AI succeeds in destroying humanity]]
+- causal possibility: [[event.void > AI does not succeed in destroying humanity]]
+- question: [[query > will AI attempt to destroy humanity?]]

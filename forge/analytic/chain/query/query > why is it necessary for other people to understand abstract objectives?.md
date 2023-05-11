@@ -1,0 +1,1 @@
+- [[claim > it is necessary for other people to understand abstract objectives, because if they cannot understand them, it difficult to unify groups of people around them, and realize the objectives]]

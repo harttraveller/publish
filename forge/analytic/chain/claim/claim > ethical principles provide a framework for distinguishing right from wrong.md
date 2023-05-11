@@ -1,0 +1,1 @@
+- [[query > why is it important to distinguish between right and wrong?]]

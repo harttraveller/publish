@@ -1,0 +1,5 @@
+#priority 
+
+# edge
+- nav: [[@root]]
+

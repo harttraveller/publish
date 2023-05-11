@@ -1,0 +1,3 @@
+- answer: [[claim > one can define whether abstract objectives are correct or not on the basis of whether they are logically internally consistent]]
+- answer: [[claim > one can define whether abstract objectives are correct or not on the basis of whether there is collective agreement]]
+- refutation: [[claim > it is impossible to define whether a set of abstract objectives is correct or not]]

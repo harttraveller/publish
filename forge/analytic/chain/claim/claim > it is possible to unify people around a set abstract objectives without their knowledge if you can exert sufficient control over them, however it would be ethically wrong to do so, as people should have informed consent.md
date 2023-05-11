@@ -1,0 +1,1 @@
+- [[query > why should people have informed consent, in contrast to simply being controlled?]]

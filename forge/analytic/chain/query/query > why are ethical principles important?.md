@@ -1,0 +1,2 @@
+- [[claim > ethical principles are important because they serve as a guide for human behavior, decision making, and interactions in various aspects of life, including personal, professional, and societal contexts]]
+- [[claim > ethical principles provide a framework for distinguishing right from wrong]]

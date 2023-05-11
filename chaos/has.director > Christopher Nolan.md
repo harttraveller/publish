@@ -1,2 +1,0 @@
-- [[has.director]]
-- [[person.Christopher Nolan]]

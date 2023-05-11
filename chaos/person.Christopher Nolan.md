@@ -1,4 +1,0 @@
----
-alias:
-- Christopher Nolan
----

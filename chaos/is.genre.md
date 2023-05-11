@@ -1,5 +1,0 @@
-#static 
-
-# axon
-- [[is]]
-- [[genre]]
