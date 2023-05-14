@@ -76,6 +76,6 @@ Accordingly this project (rokosphoenix) is necessarily flawed in a number of way
 > 
 > Obsidian may be the best *existing* tool for the job (or at least in the top three), but I believe a new tool must to be created - one that is far more comprehensive and rigorous. Granted, such a tool would no longer be a text editor, that would just be dependent feature of the tool, not its primary functionality.
 > 
-> Naturally, it's currently a work in progress, but at some point soon more information on this initiative will be added to the [[project planning scratchpad > ophanim|ophanim]] page.
+> Naturally, it's currently a work in progress, but at some point soon more information on this initiative will be added to the [[project > ophanim|ophanim]] page.
 
 `Work in progress...`
