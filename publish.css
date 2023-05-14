@@ -38,6 +38,14 @@
     --callout-icon: lucide-aperture;
 }
 
+/* status callout */
+
+
+.callout[data-callout="status"] {
+    --callout-color: 93, 114, 220;
+    --callout-icon: lucide-activity;
+}
+
 /* fingerprint callout */
 
 .callout[data-callout="print"] {
@@ -64,6 +72,15 @@
 .callout[data-callout="contact"] {
     --callout-color: 49, 190, 241;
     --callout-icon: lucide-mail;
+}
+
+/* Callout align */
+
+.callout-content {
+    overflow-x: auto;
+    padding: 0px;
+    background-color: var(--callout-content-background);
+    margin: 0px 10px 0px 0px;
 }
 
 /* hide graph view */
@@ -142,7 +159,7 @@ h6 {
     position: relative;
     left: 0px;
     margin: 20px 0px -10px 0px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 8px !important;
 }
 
 h1 {

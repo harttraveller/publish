@@ -1,2 +1,0 @@
-- counterclaim: [[{axon.claim} one cannot define whether abstract objectives are correct or not on the basis of whether there is collective agreement]]
-- question: [[{axon.query} why does collective agreement on a set of abstract objectives legitimize that set of abstract objectives]]

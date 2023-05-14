@@ -1,2 +1,2 @@
-- [[{axon.claim} no, ethical principles should not serve as guides for human behavior]]
-- [[{axon.claim} yes, ethical principles should serve as guides for human behavior]]
+- [[{axon.claim.assess} no, ethical principles should not serve as guides for human behavior]]
+- [[{axon.claim.assess} yes, ethical principles should serve as guides for human behavior]]

@@ -2,9 +2,9 @@
 
 # edge
 - type: [[= input.external.info.object + meme]]
-- label: [[~humor]]
-- label: [[~programming]]
-- label: [[~hackathons]]
+- label: [[? > humor]]
+- label: [[? > programming]]
+- label: [[? > hackathon]]
 - source: [[subreddit > programmerhumor]]
 
 # link

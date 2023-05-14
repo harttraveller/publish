@@ -1,2 +1,2 @@
-- [[{axon.claim} ethical principles are important because they serve as a guide for human behavior, decision making, and interactions in various aspects of life, including personal, professional, and societal contexts]]
-- [[{axon.claim} ethical principles provide a framework for distinguishing right from wrong]]
+- [[{axon.claim.assess} ethical principles are important because they serve as a guide for human behavior, decision making, and interactions in various aspects of life, including personal, professional, and societal contexts]]
+- [[{axon.claim.assess} ethical principles provide a framework for distinguishing right from wrong]]

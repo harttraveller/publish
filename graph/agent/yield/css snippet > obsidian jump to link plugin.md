@@ -3,8 +3,8 @@
 # head
 ## edge
 - type: [[= yield.internal.rsrc.object + css snippet]]
-- area: [[~css]]
-- area: [[~obsidian custom styling]]
+- area: [[style sheet language > css]]
+- area: [[? > obsidian custom styling]]
 - related: [[regex snippet > obsidian jump to link plugin]]
 - used for: [[obsidian plugin > jump to link]]
 

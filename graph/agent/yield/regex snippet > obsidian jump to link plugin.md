@@ -2,7 +2,7 @@
 
 # edge
 - type: [[= yield.internal.rsrc.object + regex snippet]]
-- area: [[~regex]]
+- area: [[? > regex]]
 
 # text
 ```regex
