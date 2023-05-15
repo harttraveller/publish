@@ -6,7 +6,6 @@ alias:
 
 # head
 ## edge
-- type: [[= yield.internal.info.object + concept elucidation]]
 - area: [[? > computer science]]
 - area: [[? > artificial intelligence]]
 - area: [[? > philosophy]]

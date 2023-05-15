@@ -6,7 +6,7 @@
 # edge
 - [[is instance of > poem]]
 - [[has source book > four quartets]]
-- [[is authored by > T.S. Eliot]]
+- [[has author > T.S. Eliot]]
 
 # main
 

@@ -1,1 +1,0 @@
-[[= yield.internal.info.object]]

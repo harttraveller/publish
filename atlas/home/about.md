@@ -1,12 +1,14 @@
 <img src="https://i.redd.it/dt8nufdli8za1.jpg" class="header-image">
 
+%%
+#active 
+%%
+
 # Welcome
 
 Thanks for visiting. This site serves as a blog, and as an interface for a project I'm working on. 
 
 In respect to the former, structured [[#Posts|posts]] are listed at the bottom of the page. More info on the latter can be found in the project callout below.
-
----
 
 > [!warning]- Disclaimers
 > 
@@ -56,8 +58,3 @@ In respect to the former, structured [[#Posts|posts]] are listed at the bottom o
 
 > [!contact]- Contact
 > Feel free to get in touch via the [contact](https://www.harttraveller.com) page on my professional site.
-
----
-# Posts
-
-`Building website, please check back later.`

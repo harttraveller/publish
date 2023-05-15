@@ -1,3 +1,5 @@
+#backlog 
+
 either from the ground up or by adapting english, with the objectives of:
 - gaining a deeper understanding of the possible ways language can express itself
 	- making sure it covers the possible space of necessary actions, entities, etc would be a good way to express this

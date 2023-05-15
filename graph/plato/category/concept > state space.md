@@ -6,7 +6,6 @@ alias:
 
 # head
 ## edge
-- type: [[= yield.internal.info.object + concept elucidation]]
 - area: [[? > mathematics]]
 - area: [[? > computer science]]
 - area: [[? > reality modeling framework]]

@@ -1,7 +1,7 @@
-- #future/backlog 
-- #future/priority
-- #present/active 
-- #present/focus 
-- #past/draft 
-- #past/reference
-- #past/archive
+- #backlog 
+- #priority
+- #active 
+- #focus 
+- #draft 
+- #reference
+- #archive

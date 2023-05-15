@@ -6,7 +6,6 @@ alias:
 
 # head
 ## edge
-- type: [[= yield.internal.info.object + concept elucidation]]
 - area: [[? > mathematics]]
 - list: [[& key concepts]]
 - related: [[concept > state space]]
