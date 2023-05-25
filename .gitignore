@@ -3,6 +3,8 @@
 .trash
 .obsidian
 
-_prog
-asset/user
-cache
+asset/personal
+asset/unsorted
+chaos
+notes
+vault
