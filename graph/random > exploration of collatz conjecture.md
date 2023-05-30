@@ -181,7 +181,7 @@ def explore(n: int) -> rx.PyDiGraph:
 ```
 
 ```python
-graph = explore(18)
+graph = explore(14)
 ```
 
 ```python
@@ -277,13 +277,13 @@ import json
 ```
 
 ```python
-nt = Network(height="600px", width="600px", bgcolor="#222222", font_color="#FFF", directed=True)
+nt = Network(height="600px", width="600px", bgcolor="#000", font_color="#FFF", directed=True)
 nt.from_nx(nx_graph)
 nt.set_options(json.dumps(options))
 # nt.show_buttons(filter_=['physics'])
 # nt.toggle_physics(False)
 # nt.save_graph("../asset/user/unsorted/nt.html")
-nt.save_graph("../asset/repo/internal/collatz-conjecture-bottomup-graph.html")
+nt.save_graph("../asset/repo/internal/collatz-conjecture-bottomup-graph-14.html")
 # nt.generate_html("../asset/user/unsorted/nt.html")
 ```
 
@@ -313,11 +313,7 @@ max(nodelist)
 ```
 
 ```python
-
-```
-
-```python
-
+fig
 ```
 
 ```python
