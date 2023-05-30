@@ -181,7 +181,7 @@ def explore(n: int) -> rx.PyDiGraph:
 ```
 
 ```python
-graph = explore(14)
+graph = explore(20)
 ```
 
 ```python
@@ -277,43 +277,56 @@ import json
 ```
 
 ```python
-nt = Network(height="600px", width="600px", bgcolor="#000", font_color="#FFF", directed=True)
-nt.from_nx(nx_graph)
-nt.set_options(json.dumps(options))
-# nt.show_buttons(filter_=['physics'])
+# nt = Network(height="600px", width="600px", bgcolor="#000", font_color="#FFF", directed=True)
+# nt.from_nx(nx_graph)
+# # nt.set_options(json.dumps(options))
+# # nt.show_buttons(filter_=['physics'])
 # nt.toggle_physics(False)
-# nt.save_graph("../asset/user/unsorted/nt.html")
-nt.save_graph("../asset/repo/internal/collatz-conjecture-bottomup-graph-14.html")
-# nt.generate_html("../asset/user/unsorted/nt.html")
+# # nt.save_graph("../asset/user/unsorted/nt.html")
+# nt.save_graph("../asset/repo/internal/collatz-conjecture-bottomup-graph-14-nophysics.html")
+# # nt.generate_html("../asset/user/unsorted/nt.html")
 ```
 
 - Now an interesting question, what are the numbers which don't actually appear?
 - Note: explore different between growth in edges and growth in nodes?
 
 ```python
-graph = explore(50)
+graph = explore(20)
 ```
 
 ```python
 len(graph.nodes()), len(graph.edges())
 ```
 
-```python
-nodelist = graph.nodes()
-```
-
-```python
-nodelist.sort()
-```
-
 query > how does the sparsity of numbers change?
 
 ```python
-max(nodelist)
+# nodelist = graph.nodes()
+# nodelist.sort()
+# max(nodelist)
 ```
 
 ```python
-fig
+import matplotlib.pyplot as plt
+```
+
+```python
+from ipysigma import Sigma
+```
+
+```python
+Sigma.write_html(nx_graph, "../asset/user/unsorted/nt.html", fullscreen=True, background_color="black", start_layout=True, hide_info_panel=True)
+```
+
+```python
+
+```
+
+```python
+fig = plt.figure()
+pos = nx.spring_layout(nx_graph)
+nx.draw(nx_graph, with_labels=True, node_color='green', node_size=200, edge_color='white',font_color="orange", pos=pos, font_size=8)
+fig.set_facecolor("#00000F")
 ```
 
 ```python
