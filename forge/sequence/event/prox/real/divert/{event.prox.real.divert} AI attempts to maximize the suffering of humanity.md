@@ -1,3 +1,0 @@
-#backlog 
-
-- question: [[{axon.query} why would AI attempt to maximize humanities suffering]]

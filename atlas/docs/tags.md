@@ -1,7 +1,0 @@
-- #backlog 
-- #priority
-- #active 
-- #focus 
-- #draft 
-- #reference
-- #archive

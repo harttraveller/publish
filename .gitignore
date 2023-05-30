@@ -3,8 +3,7 @@
 .trash
 .obsidian
 
-asset/personal
-asset/unsorted
-chaos
-notes
-vault
+asset/user/
+graph/code/jupyter/
+cache/
+vault/

@@ -61,6 +61,7 @@ function isMobile() {
 }
 
 function expandDirectoryBrowser() {
+  // nav_view_outer.style.display = 'block'
   nav_view_outer.style.width = '260%'
   nav_view_outer.style.opacity = '1'
   cent_col.style.opacity = '0.4'
@@ -71,6 +72,7 @@ function collapseDirectoryBrowser() {
   nav_view_outer.style.opacity = '0'
   cent_col.style.opacity = '1'
   search_view.style.opacity = '0'
+  // nav_view_outer.style.display = 'none'
 }
 
 function brightLogo() {

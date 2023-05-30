@@ -1,3 +1,0 @@
-#backlog 
-
-- [[{axon.query} why does the justification of abstract objectives in turn justify exerting control over other people to reach those objectives, without the knowledge of the involved people]]
