@@ -4,7 +4,6 @@
 .obsidian
 *.egg-info
 
+# Global Ignored
 asset/user/
-graph/code/jupyter/
 cache/
-vault/

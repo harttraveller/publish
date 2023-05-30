@@ -1,5 +1,9 @@
 #future/med 
 
+# Edge
+- [[list > thoughts on linguistics]]
+
+# Text
 - consider "unlikely"
 	- there is no absolute definition of unlikely, it is a subjective determination made given some context, eg
 		- 'unlikely' in the context of falsifying a novel theory of quantum gravity, ~$6 \sigma$ (?)

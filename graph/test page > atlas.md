@@ -13,15 +13,20 @@ jupyter:
     language: python
     name: python3
 ---
+#past/min 
+
+
+![[atlas-logo.png|100]]
 
 ```python
-import os
+from atlas.env import DATAPATH
 ```
+
+This is a test markdown insert.
 
 ```python
-from .code.env import DATAPATH
+# and now some test code
+def function(x: int) -> int:
+    return x
 ```
 
-```python
-
-```

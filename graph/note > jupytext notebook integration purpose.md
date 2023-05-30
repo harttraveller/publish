@@ -16,4 +16,4 @@ Anyways, keeping everything as markdown increases interoperability across variou
 
 Accordingly, I've opted to use jupytext to resolve this issue. Essentially, it allows you to open markdown files as jupyter notebooks.
 
-The [[Docs]] page linking here has more details on this point.
+The [[Rokos phoenix vault architecture]] page linking here has more details on this point.
