@@ -2,6 +2,7 @@
 .vscode
 .trash
 .obsidian
+*.egg-info
 
 asset/user/
 graph/code/jupyter/
