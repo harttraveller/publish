@@ -21,6 +21,17 @@ Here is a graph of the speed for [operation] by self-interpretation depth:
 
 The following explain how the python python interpreter was written, and provide some background.
 
+---
+
+## Limitations
+
+I only bothered to implement the python features that were strictly needed to run the interpreter in itself. So, for instance, I implemented an `__init__` call on instances when instantiated, but didn't bother to implement `__new__`.
+
+<!-- implement decorators? -->
+
+
+---
+
 
 ```
 2 + 2
@@ -58,3 +69,5 @@ kind of pure form of number represented in binary, instead it is a big hunk of a
   - but then I need to have the interpreter be able to handle imports, which is fine, but specifically an import of the ast module and all its dependencies, and one of its dependencies is `re`, for which in the standard library, only type stubs exist (?) - the actual implementation under the hood is in c, a different language - plus it's a compiled one
   - so ideally everything, absolutely everything, is self contained in a single module which can run itself, and while imports are maybe ok, the only things we should import would be things which themselves are self contained, and managing that would get annoying, because I would need to the standard library dependency graph and create an index of what is and isn't supported and blah blah blah that's getting complicated in a boring way and while complexity is acceptable boring complexity is only acceptable if I'm being paid a bunch of money, so it will be self contained.
   - this means that the lexer, parser, and interpreter all need to be pure python, no dependencies.
+
+
